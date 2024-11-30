@@ -141,9 +141,9 @@ Combines Convolutional Neural Networks (CNNs) with a Knowledge-Aided Network (KA
   - **Generator Loss**: Encourages generator to produce images that discriminator classifies as real.
   - **Discriminator Loss**: Measures the ability to distinguish real images from fake ones.
 - **Hyperparameters**:
-  - Learning Rate: 0.0002
+  - Learning Rate: 0.0001
   - Batch Size: 64
-  - Epochs: 200
+  - Epochs: 50
   - Optimizer: Adam
 
 ### Training Baseline Model
@@ -163,9 +163,9 @@ Combines Convolutional Neural Networks (CNNs) with a Knowledge-Aided Network (KA
 - **Loss Function**: Categorical Cross-Entropy
 - **Early Stopping**: Based on validation loss to prevent overfitting.
 - **Hyperparameters**:
-  - Learning Rate: 0.0002
+  - Learning Rate: 0.0001
   - Batch Size: 32
-  - Epochs: 50
+  - Epochs: 10
   - Optimizer: Adam
 
 ---
