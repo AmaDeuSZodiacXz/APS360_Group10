@@ -154,7 +154,7 @@ Combines Convolutional Neural Networks (CNNs) with a Knowledge-Aided Network (KA
 - **Hyperparameters**:
   - Learning Rate: 0.001
   - Batch Size: 32
-  - Epochs: 50
+  - Epochs: 10
   - Optimizer: Adam
 
 ### Training KATANA Model
